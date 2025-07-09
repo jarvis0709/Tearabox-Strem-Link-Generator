@@ -305,7 +305,7 @@ def shorten_url_link(url):
 def main() -> None:
     # Get the port from the environment variable or use default
     port = int(os.environ.get('PORT', 8080))  # Default to port 8080
-    webhook_url = f"https://terabox-new-bot-2-07-07-25.onrender.com/{TOKEN}"  # Replace with your server URL
+    webhook_url = f"https://tearabox-strem-link-generator.onrender.com/{TOKEN}"  # Replace with your server URL
 
     # Create the Application and pass it your bot's token
     app = ApplicationBuilder().token(TOKEN).build()
