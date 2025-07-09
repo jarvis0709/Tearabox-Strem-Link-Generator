@@ -285,8 +285,8 @@ async def get_final_stream_link(terabox_url: str) -> str:
 
 
 def shorten_url_link(url):
-    api_url = 'https://zegalinks.com/api'
-    api_key = 'f2224457b6e31324d0db8a192bcfaa71151475bb'
+    api_url = 'https://shortxlinks.com/api'
+    api_key = 'c13de9b31ae3749dccdbe9383bc47ebd93ba8708'
     params = {
         'api': api_key,
         'url': url
