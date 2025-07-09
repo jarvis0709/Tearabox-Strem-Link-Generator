@@ -13,7 +13,7 @@ import secrets
 # Add this at the top of the file
 VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'true').lower() == 'true'
 
-admin_ids = [5390137933, 6018060368]
+admin_ids = [5390137933, 0]
 
 # MongoDB connection
 MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://henry36655:938sFPqi2xEInysV@cluster0.5qvd2df.mongodb.net/?retryWrites=true&w=majority')  # Get MongoDB URI from environment variables
