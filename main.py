@@ -16,7 +16,7 @@ VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'true').lower() == 't
 admin_ids = [6025969005, 6018060368]
 
 # MongoDB connection
-MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://tejaschavan1110:uZLXabLmbt2AAsPJ@cluster0.lm7fb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')  # Get MongoDB URI from environment variables
+MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://tejaschavan1110:cSxC44OLfIPxcXxp@cluster0.iu0f4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')  # Get MongoDB URI from environment variables
 client = MongoClient(MONGO_URI)
 db = client['terabox_bot']
 users_collection = db['users']
