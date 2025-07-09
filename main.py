@@ -13,10 +13,10 @@ import secrets
 # Add this at the top of the file
 VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'true').lower() == 'true'
 
-admin_ids = [6025969005, 6018060368]
+admin_ids = [5390137933, 6018060368]
 
 # MongoDB connection
-MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://tejaschavan1110:cSxC44OLfIPxcXxp@cluster0.iu0f4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')  # Get MongoDB URI from environment variables
+MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://henry36655:938sFPqi2xEInysV@cluster0.5qvd2df.mongodb.net/?retryWrites=true&w=majority')  # Get MongoDB URI from environment variables
 client = MongoClient(MONGO_URI)
 db = client['terabox_bot']
 users_collection = db['users']
